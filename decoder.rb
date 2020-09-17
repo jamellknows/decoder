@@ -15,8 +15,16 @@ def decode(numbers)
   return text
 end
 
+<<<<<<< HEAD
   1 => 'A',
   2 => 'B',
   3 => 'C',
   4 => 'D',
   5 => 'E',
+=======
+  # If letter was found...
+    if letter != nil
+      # Add it onto the string.
+      text += letter
+    end
+>>>>>>> master
