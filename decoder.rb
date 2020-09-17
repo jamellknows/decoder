@@ -14,3 +14,9 @@ def decode(numbers)
   # Return the decoded string.
   return text
 end
+
+  # If letter was found...
+    if letter != nil
+      # Add it onto the string.
+      text += letter
+    end
